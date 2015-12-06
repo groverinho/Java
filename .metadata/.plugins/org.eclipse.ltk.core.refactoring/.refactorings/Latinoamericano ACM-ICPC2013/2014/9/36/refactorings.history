@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;football&apos; to &apos;footballMal&apos;&#x0D;&#x0A;- Original project: &apos;Latinoamericano ACM-ICPC2013&apos;&#x0D;&#x0A;- Original element: &apos;football&apos;&#x0D;&#x0A;- Renamed element: &apos;footballMal&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;football&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{football.java[football" matchStrategy="1" name="footballMal" qualified="false" references="true" similarDeclarations="false" stamp="1409707580050" textual="false" version="1.0"/>
+</session>

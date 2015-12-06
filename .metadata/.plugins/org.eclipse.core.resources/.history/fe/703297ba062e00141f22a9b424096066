@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+
+public class Football {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner in =new Scanner(System.in);
+		while (in.hasNextLine()) 
+		{
+			int partidos=in.nextInt();
+			int golcompra=in.nextInt();
+			int[]x = new int [partidos];
+			int[]y = new int [partidos];
+			for (int i = 0; i < partidos; i++) 
+			{
+				 x[i]=in.nextInt();
+				 y[i]=in.nextInt();
+			}
+			int puntos=0;
+			while (golcompra>0)
+			{
+				for (int i = 0; i < x.length; i++)
+				{	    int n=0;
+						int j=0;
+						if (x[i]>y[i])
+								puntos+=3;
+						else if (x[i]==y[i])
+						{
+								if (golcompra>0)
+								{
+									n=x[i]+1;
+									x[i]=n;
+									puntos+=3;
+									golcompra--;
+								}
+								else
+									puntos+=1;
+						}
+				}
+			}
+			System.out.println(puntos);
+	}
+	}
+}

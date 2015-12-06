@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;a&apos; to &apos;dice&apos;&#x0D;&#x0A;- Original project: &apos;RedCompetitiva2015Colombia6&apos;&#x0D;&#x0A;- Original element: &apos;a&apos;&#x0D;&#x0A;- Renamed element: &apos;dice&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;a&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{a.java[a" matchStrategy="1" name="dice" qualified="false" references="true" similarDeclarations="false" stamp="1436639946433" textual="false" version="1.0"/>
+</session>

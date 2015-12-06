@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;contest6UPDS/src/contest6UPDS&apos;&#x0D;&#x0A;- Original project: &apos;Nacional ACM-ICPC 2014&apos;&#x0D;&#x0A;- Destination element: &apos;contest6UPDS/src/contest6UPDS&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     balas.java&#x0D;&#x0A;     AreaRegion.java&#x0D;&#x0A;     bloques.java&#x0D;&#x0A;     nuevaspalabrasultimo.java&#x0D;&#x0A;     shaskpeare.java&#x0D;&#x0A;     deudas.java" description="Copy compilation units" destination="=contest6UPDS/src&lt;contest6UPDS" element1="/src&lt;{balas.java" element2="/src&lt;{AreaRegion.java" element3="/src&lt;{bloques.java" element4="/src&lt;{nuevaspalabrasultimo.java" element5="/src&lt;{shaskpeare.java" element6="/src&lt;{deudas.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1435344117368" units="6" version="1.0"/>
+</session>

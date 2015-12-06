@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Wie.java&apos; to &apos;.Uva/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;PracticaACM-ICPC&apos;&#x0D;&#x0A;- Destination element: &apos;.Uva/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Wie.java&apos;" description="Copy compilation unit" destination="=.Uva/src&lt;" element1="/src&lt;{Wie.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1436473386778" units="1" version="1.0"/>
+</session>

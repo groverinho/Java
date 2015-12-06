@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Contest ABC 2015 URI&apos; to &apos;Contest ABC 2015 URI Brasil&apos;&#x0D;&#x0A;- Original element: &apos;Contest ABC 2015 URI&apos;&#x0D;&#x0A;- Renamed element: &apos;Contest ABC 2015 URI&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Contest ABC 2015 URI&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Contest ABC 2015 URI" name="Contest ABC 2015 URI Brasil" references="true" stamp="1431831553877" version="1.0"/>
+</session>

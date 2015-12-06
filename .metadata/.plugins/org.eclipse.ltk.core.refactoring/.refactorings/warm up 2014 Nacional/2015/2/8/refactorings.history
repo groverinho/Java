@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;factorial.java&apos; to &apos;.urionlinejudge/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;warm up 2014 Nacional&apos;&#x0D;&#x0A;- Destination element: &apos;.urionlinejudge/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;factorial.java&apos;" description="Copy compilation unit" destination="=.urionlinejudge/src&lt;" element1="/src&lt;{factorial.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1424641728532" units="1" version="1.0"/>
+</session>

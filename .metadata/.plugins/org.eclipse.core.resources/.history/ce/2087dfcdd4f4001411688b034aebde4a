@@ -1,0 +1,44 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+
+
+public class CountingOnes 
+{
+	public static void main(String[] args)
+	{
+//		Scanner in = new Scanner(System.in);
+//		BigInteger entero1= new BigInteger(in.next());
+//		BigInteger entero2= new BigInteger(in.next());
+//		BigInteger entero3= BigInteger.valueOf(1);
+//		BigInteger uno = BigInteger.valueOf(1);
+//		int cont=0;
+//		while (entero1.compareTo(entero2)<=entero2.compareTo(entero1)) 
+//		{
+//			BigInteger aux = null;
+//			aux = entero1;
+//			while(aux.compareTo(entero3)>=0)
+//			{
+//				if (!aux.mod(new BigInteger("2")).equals(BigInteger.ZERO))
+//					cont++;
+//				aux = aux.divide(new BigInteger("2"));
+//				//System.out.println("aux "+aux);
+//			}
+//			System.out.println("cont"+cont);
+//			entero1 = entero1.add(uno);
+//			
+//		}
+//		System.out.println(cont);
+		Scanner in = new Scanner(System.in);
+		long A = in.nextLong();
+        long B = in.nextLong();
+ 
+        long result = 0;
+ 
+        for (long i = A; i <= B; i++) {
+            result += Long.bitCount(i);
+        }
+ 
+        System.out.println(Long.valueOf(result));
+
+	}
+}

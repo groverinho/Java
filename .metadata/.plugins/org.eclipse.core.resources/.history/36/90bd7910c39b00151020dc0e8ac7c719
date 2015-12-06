@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class SaposdeInvierno 
+{
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner(System.in);
+		int casos = in.nextInt();
+		while (casos-1>=0) 
+		{
+			int sapitos = in.nextInt();
+			if (sapitos % 2==0)
+			{
+				System.out.println(sapitos/2);
+			}
+			else
+			{
+				System.out.println("Imposible");
+			}
+			casos--;
+		}
+	}
+
+}

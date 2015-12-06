@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lenguajeP&apos; to &apos;ejercicio1Encriptar&apos;&#x0D;&#x0A;- Original project: &apos;PracticasACM&apos;&#x0D;&#x0A;- Original element: &apos;lenguajeP&apos;&#x0D;&#x0A;- Renamed element: &apos;ejercicio1Encriptar&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;lenguajeP&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{lenguajeP.java[lenguajeP" matchStrategy="1" name="ejercicio1Encriptar" qualified="false" references="true" similarDeclarations="false" stamp="1418693935085" textual="false" version="1.0"/>
+</session>

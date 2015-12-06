@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+
+public class lenguajeP {
+
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		String cadena = in.nextLine();
+		String aux ="";
+		for (int i = 0; i < cadena.length(); i++) 
+		{
+			if (i+1<cadena.length()) 
+			{	
+				aux = aux+ cadena.substring(i,i+1);
+				if (cadena.charAt(i)== 'a'||cadena.charAt(i)== 'e'||cadena.charAt(i)== 'i'||cadena.charAt(i)== 'o'||cadena.charAt(i)== 'u')
+				{
+					
+				}
+				if (cadena.charAt(i)== 'a'||cadena.charAt(i)== 'e'||cadena.charAt(i)== 'i'||cadena.charAt(i)== 'o'||cadena.charAt(i)== 'u') 
+				{
+					aux = aux + "p"+cadena.charAt(i);
+				}
+			}
+		}
+		if (cadena.charAt(cadena.length()-1)== 'a'||cadena.charAt(cadena.length()-1)== 'e'||cadena.charAt(cadena.length()-1)== 'i'||cadena.charAt(cadena.length()-1)== 'o'||cadena.charAt(cadena.length()-1)== 'u')
+			System.out.println(aux+cadena.charAt(cadena.length()-1)+ "p"+cadena.charAt(cadena.length()-1));
+		else
+			System.out.println(aux+cadena.substring(cadena.length()-1));
+
+	}
+
+}

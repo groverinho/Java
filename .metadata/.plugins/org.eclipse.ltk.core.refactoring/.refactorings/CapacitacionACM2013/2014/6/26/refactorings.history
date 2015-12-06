@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;DIA_7&apos; to &apos;Dia7&apos;&#x0D;&#x0A;- Original project: &apos;CapacitacionACM2013&apos;&#x0D;&#x0A;- Original element: &apos;CapacitacionACM2013/src/DIA_7&apos;&#x0D;&#x0A;- Renamed element: &apos;CapacitacionACM2013/src/Dia7&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;DIA_7&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;DIA_7" name="Dia7" qualified="false" references="true" stamp="1403668438896" textual="false" version="1.0"/>
+</session>
