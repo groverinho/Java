@@ -9,16 +9,18 @@ public class tourFrance11242 {
 	public static void main(String[] args) {
 	Scanner in = new Scanner(System.in);
 	
-	int pinonDelantero []= new int[10];
-	int pinonTrasero []= new int[10];
-//	double vector[] = new double [100];
-	ArrayList<Double> vec = new ArrayList<Double>();
+
 	while (true) 
 	{	int f = in.nextInt();
 		if (f==0) {
 			break;
 		}
 		int r = in.nextInt();
+		int pinonDelantero []= new int[f];
+		int pinonTrasero []= new int[r];
+//		double vector[] = new double [100];
+		ArrayList<Double> vec = new ArrayList<Double>();
+
 		
 		for (int i = 0; i < f; i++) {
 			pinonDelantero[i] = in.nextInt();
@@ -38,9 +40,9 @@ public class tourFrance11242 {
 		Collections.sort(vec);
 
 		double max =-1;
-		for (int i = 0; i < vec.size()-1; i++) {
+		for (int i = 1; i < vec.size(); i++) {
 			
-			max = Math.max(max,vec.get(i+1) / vec.get(i));
+			max = Math.max(max,vec.get(i) / vec.get(i-1));
 			//System.out.println(vector[i + 1] / vector[i]);
 		}
 
