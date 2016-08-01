@@ -1,4 +1,10 @@
 import java.util.Scanner;
+//============================================================================
+//Name        : CannibalString2445
+//Author      : Grover Irusta
+//University  : Universidad Privada Domingo Savio - Tarija
+//Date 		  : 30-07-16
+//============================================================================
 
 
 public class CannibalString2445 {
