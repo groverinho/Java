@@ -10,50 +10,34 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ulgyNumbers136 {
-	public static int metodo(int n) {
-	    if(n<=0)
-	        return 0;
-	 
-	    ArrayList<Integer> list = new ArrayList<Integer>();
-	    list.add(1);
-	 
-	    int i=0;
-	    int j=0;
-	    int k=0;
-	 
-	    while(list.size()<n){
-	        int m2 = list.get(i)*2;
-	        int m3 = list.get(j)*3;
-	        int m5 = list.get(k)*5;
-	 
-	        int min = Math.min(m2, Math.min(m3, m5));
-	        list.add(min);
-	 
-	        if(min==m2)
-	            i++;
-	 
-	        if(min==m3)
-	            j++;
-	 
-	        if(min==m5)
-	            k++;
-	    }
-	 
-	    return list.get(list.size()-1);
+
+	static boolean isUgly(int n){
+		while (n % 2 == 0)
+			n /= 2;
+		while (n % 3 == 0)
+			n /= 3;
+		while (n % 5 == 0)
+			n /= 5;
+		return n == 1;
 	}
+
 	public static void main(String[] args) {
-		
+		//859963392
 		
 		Scanner in=new Scanner(System.in);
-	
-			
-			//int n=in.nextInt();
-				
-//		for (int i = 0; i <1500; i++) {
-//			System.out.println(metodo(i));
-//		}
+
+//		int c=0;
+//		int i = 1;
+//				while (c!=1500)
+//				{
+//					if (isUgly(i)) {
+//						c++;
+//						System.out.println(i);
+//					}
+//					i++;
 //					
-        System.out.println("The 1500'th ugly number is "+metodo(1500)+".");		
+//				}				
+        System.out.println("The 1500'th ugly number is "+859963392+".");		
 					
 		
 		
