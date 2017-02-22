@@ -1,21 +1,32 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
-
+/**
+Name: Grover Irusta M.
+Date: 2017
+ */
 public class conjuntoCapicua {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		String n = in.nextLine();
-		String cad = in.nextLine();
-		StringBuilder cad2 = new StringBuilder(cad);
-		cad2 = cad2.reverse();
-		String aux2 = cad2.toString();
-		if (aux2.equals(cad))
-		{
-		System.out.println("SI");	
+		int n = in.nextInt();
+		ArrayList<Integer>lista = new ArrayList<Integer>(); 
+		for (int i = 0; i < n; i++) {
+			lista.add(in.nextInt());
 		}
-		else
-			System.out.println("NO");
+		int j =lista.size()-1;
+		boolean bandera = false;
+	for (int i = 0; i < lista.size(); i++) {
+		if (lista.get(i)!=lista.get(j)) {
+			bandera = true;
+			break;
+		}
+		j--;
+	}
+		System.out.println(!bandera?"SI":"NO");
 
 	}
 
