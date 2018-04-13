@@ -12,6 +12,7 @@ Date 13/04/2018
 public class aliciaYlasLlavesDoradas {
 
 	public static void main(String[] args) throws IOException {
+		//only 90% of cases
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		int m = Integer.parseInt(in.readLine());
 		String chapas[] = new String[m];
