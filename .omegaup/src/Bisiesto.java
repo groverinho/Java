@@ -8,14 +8,14 @@ public class Bisiesto {
 		int n = in.nextInt();
 		for (int i = 0; i < n; i++) 
 		{
-			int año = in.nextInt();
-			if ((año%4==0) && (año%100!=0))
+			int anio = in.nextInt();
+			if ((anio%4==0) && (anio%100!=0))
 			{
 				  System.out.println("S");
 			}
 			else 
 			{
-				if ((año%400==0) && (año%100==0))
+				if ((anio%400==0) && (anio%100==0))
 				{
 					   System.out.println("S");	
 				}

@@ -1,4 +1,3 @@
-package ContestFinalCamp;
 
 import java.util.Scanner;
 

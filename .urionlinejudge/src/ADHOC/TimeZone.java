@@ -1,3 +1,4 @@
+package ADHOC;
 import java.util.Scanner;
 
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
    Date: 05-10-16
  */
 
-public class kibblis {
+public class KibblesnBitsnBitsnBits {
 
 
 	public static void main(String[] args) {

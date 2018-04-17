@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class ackerman {
+public class ackermanFunctions {
 
 	/**
 	 * Name: Grover Irusta

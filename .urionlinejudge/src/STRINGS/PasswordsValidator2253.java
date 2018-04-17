@@ -1,3 +1,4 @@
+package STRINGS;
 import java.util.Scanner;
 
 /**
