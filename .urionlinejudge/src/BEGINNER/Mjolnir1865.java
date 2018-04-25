@@ -17,8 +17,7 @@ public class Mjolnir1865 {
 			int force = in.nextInt();
 			if (name.equals("Thor")) {
 				System.out.println("Y");
-			}
-			else {
+			} else {
 				System.out.println("N");
 			}
 		}
