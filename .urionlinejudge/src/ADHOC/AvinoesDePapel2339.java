@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.*;
 //Date: 06/11/18
 
-public class Main {
+public class AvinoesDePapel2339 {
     public static void main(String[] args) throws Exception {
     Scanner in = new Scanner(System.in);
     int c = in.nextInt();
