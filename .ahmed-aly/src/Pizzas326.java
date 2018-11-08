@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 //Date: 07/11/18
-public class CopyOfMain {
+public class Pizzas326 {
     public static void main(String[] args) throws Exception {
     Scanner in = new Scanner(System.in);
    int n = in.nextInt();
