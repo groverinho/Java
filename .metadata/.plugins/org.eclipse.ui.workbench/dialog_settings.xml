@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="74" key="DIALOG_Y_ORIGIN"/>
-		<item value="158" key="DIALOG_X_ORIGIN"/>
+		<item key="DIALOG_Y_ORIGIN" value="74"/>
+		<item key="DIALOG_X_ORIGIN" value="158"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="624" key="dialogHeight"/>
-		<item value="1200" key="dialogWidth"/>
+		<item key="dialogHeight" value="624"/>
+		<item key="dialogWidth" value="1200"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -17,27 +17,27 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
-		<item value="706" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="743" key="DIALOG_HEIGHT"/>
-		<item value="-121" key="DIALOG_Y_ORIGIN"/>
-		<item value="-79" key="DIALOG_X_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="706"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="743"/>
+		<item key="DIALOG_Y_ORIGIN" value="-121"/>
+		<item key="DIALOG_X_ORIGIN" value="-79"/>
 	</section>
 	<section name="ShowViewDialog">
-		<item value="311" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="438" key="DIALOG_HEIGHT"/>
-		<item value="151" key="DIALOG_Y_ORIGIN"/>
-		<item value="653" key="DIALOG_X_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="311"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="438"/>
+		<item key="DIALOG_Y_ORIGIN" value="151"/>
+		<item key="DIALOG_X_ORIGIN" value="653"/>
 	</section>
 	<section name="ImportExportAction">
-		<item value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
-		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
