@@ -11,6 +11,10 @@ public class EOF {
 			int num = entrada.nextInt();		
 			System.out.println(num);
 		}
+		// EOF for "nextline"
+		while (in.hasNextLine()) {
+			// Do something
+		}
 	}
 
 }
